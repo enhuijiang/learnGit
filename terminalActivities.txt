@@ -30,4 +30,16 @@ Writing objects: 100% (4/4), 1.12 KiB | 1.12 MiB/s, done.
 Total 4 (delta 0), reused 0 (delta 0)
 To https://github.com/enhuijiang/learnGit.git
    aad03d0..703c088  master -> master
-
+kouonmeBookpuro:LearnGit enhui$ git add terminalActivities.txt
+kouonmeBookpuro:LearnGit enhui$ git commit -m "updata terminal activity"
+[master 24745e7] updata terminal activity
+kouonmeBookpuro:LearnGit enhui$ git push origin master
+Counting objects: 6, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 706 bytes | 706.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0)
+remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+To https://github.com/enhuijiang/learnGit.git
+   24bff1a..24745e7  master -> master
+kouonmeBookpuro:LearnGit enhui$ 
