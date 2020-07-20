@@ -45,3 +45,16 @@ To https://github.com/enhuijiang/learnGit.git
 kouonmeBookpuro:LearnGit enhui$ git checkout -b newBranch
 M	.DS_Store
 Switched to a new branch 'newBranch'
+kouonmeBookpuro:learnGit enhui$  git add terminalActivities.txt
+kouonmeBookpuro:learnGit enhui$ git commit -m "updata terminal activity 3"
+[newBranch 945fafe] updata terminal activity 3
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+kouonmeBookpuro:learnGit enhui$ git push origin newBranch
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 345 bytes | 345.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/enhuijiang/learnGit.git
+   77c9d3a..945fafe  newBranch -> newBranch
